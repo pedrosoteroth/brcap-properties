@@ -1,0 +1,24 @@
+{
+  "name": "brcap-properties",
+  "version": "1.0.0",
+  "description": "project to obtain properties from s3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src.js > index.js"
+  },
+  "author": "Pedro Sotero",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "brcap-aws": "^1.4.4",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
